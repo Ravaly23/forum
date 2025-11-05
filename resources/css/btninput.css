@@ -1,0 +1,13 @@
+#input{
+    background: rgb(216, 213, 213);
+    width: 91%;
+    height: 3.6vw;
+    border-top-left-radius: 0.6vw;
+    border-bottom-left-radius: 0.6vw;
+    padding: 0.5vw 1.3vw 0.5vw 1.3vw;
+    color: black;
+    outline: none;
+    font-size: 1.3vw;
+    position: relative;
+    top: -1.32vw;
+}    

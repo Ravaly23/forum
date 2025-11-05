@@ -1,0 +1,117 @@
+main .accueil{
+    height: 115vh;
+    background-image: url("../js/assets/bg_head.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -0.5vw;
+    /* padding: 13vw 14vw; */
+    padding: 10vw 14vw 1vw 14vw;
+}
+
+main .accueil .contenu_accueil{
+    width: 70vw;
+    height: auto;
+}
+
+main .accueil .contenu_accueil .description{
+    width: 80%;
+    margin: 2vw 7vw;
+    height: auto;
+    text-align: center;
+}
+
+main .accueil .contenu_accueil .description p{
+    font-size: 3vw;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    color :white;
+}
+
+main .accueil .contenu_accueil #description{
+    width: 62%;
+    margin: 2vw 13vw;
+    height: auto;
+    text-align: center;
+   
+}
+
+main .accueil .contenu_accueil #description p{
+    font-size: 1.15vw;
+    color: black;
+    font-weight: bold;
+}
+
+main .accueil .contenu_accueil .recherche{
+    width: 55%;
+    margin: 6vw 15.5vw;
+    height: 4vw;
+}
+
+main .accueil .contenu_accueil .recherche #btnSearch{
+    background: white;
+    width: 9%;
+    height: 3.6vw;
+    border-top-right-radius: 0.6vw;
+    border-bottom-right-radius: 0.6vw;
+}
+
+main .accueil .contenu_accueil .recherche #btnSearch:hover{
+    cursor: pointer;
+}
+
+main .accueil .contenu_accueil .recherche #btnSearch img{
+    width: 2vw;
+    height: 2vw;
+    margin: 0 0.7vw;
+}
+
+main .accueil .contenu_accueil .fin{
+    width: 55%;
+    margin: 10vw 15.5vw 0 15.5vw;
+    height: auto;
+    text-align: center;
+    font-size: 1.9vw;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+main #propos{
+    height: auto;
+    background-color: whitesmoke;
+    padding-top: 7vw;
+}
+
+main #propos  #photodesc{
+   display: flex;
+   width: auto;
+   height: auto;
+}
+
+main #propos #photodesc .photo{
+    width: 40vw;
+    height: 30vw;
+}
+
+main #propos #photodesc .photo img{
+    width: 40vw;
+    height: 30vw;
+}
+
+main #propos #photodesc .description{
+    width:45%;
+    height: auto;
+}
+
+
+main #propos #photodesc .description h1{
+    font-size: 1.5vw;
+    color: #2daae1;
+    font-weight: bolder;
+}
+
+main #contact{
+    background: white;
+    height: 70vh;
+    display: flex;
+}

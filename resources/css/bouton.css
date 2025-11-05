@@ -1,0 +1,19 @@
+#link{
+    padding: 0.1vw 1.3vw 0 1.3vw;
+    font-size: 1.2vw;
+    background: #FFFFFF;
+    color: blue;
+    border-radius: 0.5vw;
+    -webkit-border-radius: 0.5vw;
+    -moz-border-radius: 0.5vw;
+    -ms-border-radius: 0.5vw;
+    -o-border-radius: 0.5vw;
+    border: 0.1vw solid #2DAAE1;
+    margin-right: 0.5vw;
+    margin-top: 0.7vw;
+    margin-bottom: 0.3vw;
+}
+#link:hover{
+    background: #2DAAE1;
+    color: #FFFFFF;
+}
