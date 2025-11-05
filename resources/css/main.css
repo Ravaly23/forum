@@ -1,6 +1,6 @@
-main .accueil{
+main .accueil {
     height: 115vh;
-    background-image: url("../js/assets/bg_head.png");
+    background-image: url('../js/assets/bg_head.png');
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: -0.5vw;
@@ -8,46 +8,45 @@ main .accueil{
     padding: 10vw 14vw 1vw 14vw;
 }
 
-main .accueil .contenu_accueil{
+main .accueil .contenu_accueil {
     width: 70vw;
     height: auto;
 }
 
-main .accueil .contenu_accueil .description{
+main .accueil .contenu_accueil .description {
     width: 80%;
     margin: 2vw 7vw;
     height: auto;
     text-align: center;
 }
 
-main .accueil .contenu_accueil .description p{
+main .accueil .contenu_accueil .description p {
     font-size: 3vw;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
-    color :white;
+    color: white;
 }
 
-main .accueil .contenu_accueil #description{
+main .accueil .contenu_accueil #description {
     width: 62%;
     margin: 2vw 13vw;
     height: auto;
     text-align: center;
-   
 }
 
-main .accueil .contenu_accueil #description p{
+main .accueil .contenu_accueil #description p {
     font-size: 1.15vw;
     color: black;
     font-weight: bold;
 }
 
-main .accueil .contenu_accueil .recherche{
+main .accueil .contenu_accueil .recherche {
     width: 55%;
     margin: 6vw 15.5vw;
     height: 4vw;
 }
 
-main .accueil .contenu_accueil .recherche #btnSearch{
+main .accueil .contenu_accueil .recherche #btnSearch {
     background: white;
     width: 9%;
     height: 3.6vw;
@@ -55,17 +54,17 @@ main .accueil .contenu_accueil .recherche #btnSearch{
     border-bottom-right-radius: 0.6vw;
 }
 
-main .accueil .contenu_accueil .recherche #btnSearch:hover{
+main .accueil .contenu_accueil .recherche #btnSearch:hover {
     cursor: pointer;
 }
 
-main .accueil .contenu_accueil .recherche #btnSearch img{
+main .accueil .contenu_accueil .recherche #btnSearch img {
     width: 2vw;
     height: 2vw;
     margin: 0 0.7vw;
 }
 
-main .accueil .contenu_accueil .fin{
+main .accueil .contenu_accueil .fin {
     width: 55%;
     margin: 10vw 15.5vw 0 15.5vw;
     height: auto;
@@ -76,42 +75,180 @@ main .accueil .contenu_accueil .fin{
     color: white;
 }
 
-main #propos{
+main #propos {
     height: auto;
     background-color: whitesmoke;
-    padding-top: 7vw;
+    padding-top: 5vw;
 }
 
-main #propos  #photodesc{
-   display: flex;
-   width: auto;
-   height: auto;
-}
-
-main #propos #photodesc .photo{
-    width: 40vw;
-    height: 30vw;
-}
-
-main #propos #photodesc .photo img{
-    width: 40vw;
-    height: 30vw;
-}
-
-main #propos #photodesc .description{
-    width:45%;
+main #propos #photodesc {
+    display: flex;
+    width: auto;
     height: auto;
 }
 
+main #propos #photodesc .photo {
+    width: 40vw;
+    height: 30vw;
+}
 
-main #propos #photodesc .description h1{
-    font-size: 1.5vw;
+main #propos #photodesc .photo img {
+    width: 40vw;
+    height: 30vw;
+}
+
+main #propos #photodesc .description {
+    width: 65%;
+    height: auto;
+}
+
+main #propos #photodesc .description h1 {
+    font-size: 2.6vw;
     color: #2daae1;
     font-weight: bolder;
 }
-
-main #contact{
+main #propos #photodesc .description #h2 {
+    font-size: 1.6vw;
+    font-weight: bolder;
+    margin-top: 1vw;
+}
+main #propos #photodesc .description #h2 span {
+    color: #2daae1;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+main #propos #photodesc .description p {
+    color: black;
+    font-size: 1.4vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 1vw;
+}
+main #propos #photodesc .description .h2 {
+    color: black;
+    font-size: 1.6vw;
+    margin-top: 4vw;
+    font-weight: bolder;
+}
+main #propos #photodesc .description .h2 span {
+    color: #2daae1;
+    font-weight: bolder;
+}
+main #propos #photodesc .description .icone3dev{
+    width: 6vw;
+    height: 2.7vw;
+    margin-top: 2vw;
+    background-image: url("../js/assets/icone3dev.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+main #contact {
     background: white;
-    height: 70vh;
+}
+main #contact #description{
+    margin:3vw 5vw;
+}
+main #contact #description h1{
+    font-size: 2.6vw;
+    color: #2daae1;
+    font-weight: bolder;
+}
+main #contact #description p{
+    font-size: 1.4vw;
+    margin: 2vw 0 3vw 0;
+}
+main #contact .contactFormulaire{
+    margin:3vw 5vw;
+    width: 88%;
     display: flex;
 }
+main #contact .contactFormulaire .contact{
+    padding: 1.5vw 0 1.5vw 0;
+}
+main #contact .contactFormulaire .contact .phone,
+main #contact .contactFormulaire .contact .lieu,
+main #contact .contactFormulaire .contact .email{
+    display: flex;
+    margin-bottom: 2vw;
+}
+main #contact .contactFormulaire .contact .phone .img,
+main #contact .contactFormulaire .contact .lieu .imgL,
+main #contact .contactFormulaire .contact .email .imgM{
+    border: 0.1vw solid #2daae1;
+    border-radius: 3vw;
+    -webkit-border-radius: 3vw;
+    -moz-border-radius: 3vw;
+    -ms-border-radius: 3vw;
+    -o-border-radius: 3vw;
+    width: 4vw;
+    height: 4vw;
+    background-size: 2vw;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+main #contact .contactFormulaire .contact .phone .img{
+    background-image: url("../js/assets/phone.png");
+}
+main #contact .contactFormulaire .contact .lieu .imgL{
+    background-image: url("../js/assets/lieu.png");
+    padding: 0 1vw 0 1vw;
+}
+main #contact .contactFormulaire .contact .email .imgM{
+    background-image: url('../js/assets/email.png');
+}
+main #contact .contactFormulaire .contact .lieu p{
+    width: 20vw;
+}
+main #contact .contactFormulaire .contact .phone p,
+main #contact .contactFormulaire .contact .lieu p,
+main #contact .contactFormulaire .contact .email p
+{
+   font-size: 1.5vw;
+   font-weight: bold;
+   margin: 1vw 3vw;
+
+}
+main #contact .contactFormulaire form{
+   margin: 2vw 13vw;
+}
+main #contact .contactFormulaire form #input{
+    width: 45vw;
+    height: 4vw;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    margin: 1vw 0 1vw 0;
+    background: white;
+    border: gray solid 0.1vw;
+    outline-width: 0.1vw;
+}
+main #contact .contactFormulaire form #area{
+    width: 45vw;
+    height: 10vw;
+    background: white;
+    border: gray solid 0.1vw;
+    padding: 0 1vw 0 1vw;
+    font-size: 1.5vw;
+    scrollbar-width: none;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    resize: none;
+    margin-bottom: 1.5vw;
+}
+main #contact .contactFormulaire form #btn{
+    width: 45vw;
+    height: 4vw;
+    border-radius: 0;
+    background: #2daae1;  
+    color: white;
+    font-size: 1.5vw; 
+    margin-bottom: 3vw;
+}
+main #contact .contactFormulaire form #btn:hover{
+    cursor: pointer;
+}
+

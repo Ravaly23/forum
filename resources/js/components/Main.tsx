@@ -41,16 +41,54 @@ export default function Main() {
            </div>
            <div className="description">
               <h1>A propos</h1>
+
+              <h2 id='h2'>Equipe d'etudiants spéacialisée dans le  <span> domaine informatiques</span></h2>
+              <p>
+                Nous sommes un groupe d'étudiants qui a une grande envie d'aidé autrui.
+                <br/>En les aidant à trouver des solutions dans leur probleme en informatiques,<br /> les guidant dans chaques étape.
+                C'est pour cela que nous avons créer <br />
+                ce site pour vous les étudiants en Mathématiques ,Informatiques et Applications.
+              </p>
+              <h2 className='h2'>Créer par l'équipe <span> 3DEV.</span></h2>
+              <div className="icone3dev">
+
+              </div>
            </div>
           </div>
          </div>
          <div id="contact">
+          <div id="description">
+            <h1>Contactez-nous</h1>
+            <p>Si vous voulez contribuer à l'amélioration du site ou autre :</p>
+          </div>
+          <div className="contactFormulaire">
             <div className="contact">
+              <div className="phone">
+                <div className="img">
 
+                </div>
+                <p>+261  34  61  645  07</p>
+              </div>
+              <div className="lieu">
+                <div className="imgL">
+
+                </div>
+                <p>Toamasina 501 Madagascar</p>
+              </div>
+              <div className="email">
+                <div className="imgM">
+
+                </div>
+                <p>threedev@gmail.com</p>
+              </div>
             </div>
             <form action="">
-
+               <input type="text" id='input' placeholder='Nom et Prenom'/><br />
+               <input type="email" id='input' placeholder='Exemple :xxxxxx@gmail.com'/><br />
+               <textarea name="" id="area" placeholder='Rediger votre message...'></textarea><br />
+               <button id='btn'>Envoyer</button>
             </form>
+          </div>
          </div>
       </main>
     </>
