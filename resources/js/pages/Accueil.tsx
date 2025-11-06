@@ -1,6 +1,6 @@
 
 // import Header from '@/components/header';
-import Main from '@/components/Main';
+import MainFagnampy from '@/components/MainFagnampy'
 import { Head } from '@inertiajs/react';
 import AppAccueilFagnampy from '@/layouts/accueil-fagnampy'
 export default function Accueil(){
@@ -9,7 +9,7 @@ export default function Accueil(){
           
           <AppAccueilFagnampy accueil='#accueil' propos='#propos' faqs='#faqs' contact='#contact'>
             <Head title='Accueil-fagnampy' />
-             <Main />
+             <MainFagnampy />
           </AppAccueilFagnampy>
     )
 }

@@ -1,7 +1,9 @@
 import Btninput from '@/components/btninput'
 import icone from '../assets/iconesearch.png'
 import iconeAbout from '../assets/About.png'
-export default function Main() {
+import { Link } from '@inertiajs/react';
+import envoyerIcone from '../assets/envoyer.png'
+export default function MainFagnampy() {
   return (
     <>
       <main>
@@ -93,6 +95,27 @@ export default function Main() {
          <div id="faqs">
             <div className="titre">
               <h1>FAQS</h1>
+              <p>Les questions les plus posées:</p>
+            </div>
+            <div className="question">
+              <p>Comment importer une script.sql via ligne de commande?</p>
+              <Link href=''><img src={envoyerIcone} /></Link>
+            </div>
+            <div className="question">
+              <p>Comment importer une script.sql via ligne de commande?</p>
+              <Link href=''><img src={envoyerIcone} /></Link>
+            </div>
+            <div className="question">
+              <p>Comment importer une script.sql via ligne de commande?</p>
+              <Link href=''><img src={envoyerIcone} /></Link>
+            </div>
+            <div className="question">
+              <p>Comment importer une script.sql via ligne de commande?</p>
+              <Link href=''><img src={envoyerIcone} /></Link>
+            </div>
+            <div className="question">
+              <p>Comment importer une script.sql via ligne de commande?</p>
+              <Link href=''><img src={envoyerIcone} /></Link>
             </div>
          </div>
       </main>

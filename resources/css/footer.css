@@ -1,4 +1,72 @@
 footer{
     background-color: white;
-    height: 10vw;
+    height: auto;
+    display: flex;
+    padding: 2vw 1vw 2vw 1vw;
+    justify-content: space-between;
+}
+footer .copyright{
+   margin-top: 1.9vw;
+}
+
+footer .copyright p,footer .remerciement p{
+    font-size: 1.5vw;
+    color: black;
+}
+
+footer .copyright p span{
+    color: #2daae1;
+}
+
+footer .navigation{
+    display: flex;
+    width: 15vw;
+    justify-content: space-around;
+    margin-top: 1.3vw;
+}
+footer .navigation li{
+    list-style: none;
+}
+
+footer .navigation li img{
+    width: 3vw;
+    height: 3vw;
+}
+
+
+footer .remerciement .sponsor
+{
+    display: flex;
+}
+
+footer .remerciement .sponsor li{
+    list-style: none;
+}
+
+footer .remerciement .sponsor li #uni{
+    width: 4vw;
+    height: 4vw;
+}
+footer .remerciement .sponsor li #dev{
+    width: 3vw;
+    height: 2.5vw;   
+    margin-top: 0.5vw;
+    margin-left: 0.5vw;
+}
+
+footer .retour
+{
+   border: 0.1vw solid gray;
+   width: 3vw;
+   height: 3vw;
+   border-radius: 2vw;
+   -webkit-border-radius: 2vw;
+   -moz-border-radius: 2vw;
+   -ms-border-radius: 2vw;
+   -o-border-radius: 2vw;
+}
+
+footer .retour img{
+    width: 3vw;
+    height: 3vw; 
 }

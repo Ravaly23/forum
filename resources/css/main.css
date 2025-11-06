@@ -253,7 +253,7 @@ main #contact .contactFormulaire form #btn:hover{
 }
 
 main #faqs{
-    height: 40vw;
+    height: auto;
     background-color: whitesmoke;
     padding: 4vw 15vw;
 }
@@ -266,4 +266,36 @@ main #faqs .titre h1{
     font-size: 2.6vw;
     color: #2daae1;
     font-weight: bolder; 
+}
+
+main #faqs .titre p{
+    font-size: 2vw;
+    color:black;
+    font-weight: bold;
+    margin: 1vw 0 1vw 0;
+}
+main #faqs .question{
+    width: 80%;
+    height: auto;
+    margin:2vw 8vw ;
+    border: 0.1vw solid white;
+    background: white;
+    height: 3vw;
+    padding:0.4vw 0.9vw 0.5vw 0.9vw;
+    border-radius: 0.5vw;
+    -webkit-border-radius: 0.5vw;
+    -moz-border-radius: 0.5vw;
+    -ms-border-radius: 0.5vw;
+    -o-border-radius: 0.5vw;
+    display: flex;
+    justify-content: space-between;
+}
+main #faqs .question p{
+    font-size: 1.5vw;
+    color: black;
+}
+
+main #faqs .question a img{
+    width: 2vw;
+    height: 2vw;
 }
