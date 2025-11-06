@@ -19,14 +19,14 @@ export default function Main() {
               Mais vous pouvez trouver des leçons et exercices ici.
               </p>
             </div>
-            <div className="recherche">
+            {/* <div className="recherche">
               <form>
                 <Btninput nom='search' type='text' placeholder='Rechercher...' />
                 <button id='btnSearch'>
                    <img src={icone} alt="" />
                 </button>
               </form>
-            </div>
+            </div> */}
             <div className="fin">
               <p>
                 Espace dédié à l'entraide.
@@ -89,6 +89,11 @@ export default function Main() {
                <button id='btn'>Envoyer</button>
             </form>
           </div>
+         </div>
+         <div id="faqs">
+            <div className="titre">
+              <h1>FAQS</h1>
+            </div>
          </div>
       </main>
     </>

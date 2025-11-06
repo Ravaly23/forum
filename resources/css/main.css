@@ -252,3 +252,18 @@ main #contact .contactFormulaire form #btn:hover{
     cursor: pointer;
 }
 
+main #faqs{
+    height: 40vw;
+    background-color: whitesmoke;
+    padding: 4vw 15vw;
+}
+
+main #faqs .titre{
+    text-align: center;
+}
+
+main #faqs .titre h1{
+    font-size: 2.6vw;
+    color: #2daae1;
+    font-weight: bolder; 
+}

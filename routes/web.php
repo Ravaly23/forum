@@ -11,6 +11,15 @@ use Inertia\Inertia;
 Route::get('/',function(){
    return Inertia::render('Accueil');
 });
+Route::get('/teste',function(){
+   return Inertia::render('Accueil');
+});
+Route::get('/inscrire',function(){
+   return Inertia::render('Inscrire',[
+      "teste" => "Bonjour"
+   ]);
+});
+
 Route::get('/propos',function(){
 
 });
